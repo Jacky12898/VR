@@ -62,6 +62,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\_Scripts\handGrab.cs" />
     <Compile Include="Assets\MixedRealityToolkit.Extensions\SceneTransitionService\ISceneTransitionService.cs" />
     <Compile Include="Assets\MixedRealityToolkit.Extensions\SceneTransitionService\SceneTransitionService.cs" />
     <Compile Include="Assets\MixedRealityToolkit.Extensions\SceneTransitionService\SceneTransitionServiceProfile.cs" />

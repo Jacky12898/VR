@@ -65,6 +65,12 @@
     <Reference Include="Microsoft.MixedReality.Toolkit.Tools.Runtime">
       <HintPath>Library/ScriptAssemblies/Microsoft.MixedReality.Toolkit.Tools.Runtime.dll</HintPath>
     </Reference>
+    <Reference Include="Microsoft.MixedReality.Toolkit.Demos.Gltf">
+      <HintPath>Library/ScriptAssemblies/Microsoft.MixedReality.Toolkit.Demos.Gltf.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.MixedReality.Toolkit.Demos.UX.Interactables">
+      <HintPath>Library/ScriptAssemblies/Microsoft.MixedReality.Toolkit.Demos.UX.Interactables.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.MixedReality.Toolkit">
       <HintPath>Library/ScriptAssemblies/Microsoft.MixedReality.Toolkit.dll</HintPath>
     </Reference>
@@ -101,23 +107,17 @@
     <Reference Include="Unity.TextMeshPro">
       <HintPath>Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.XR.WindowsMR">
-      <HintPath>Library/ScriptAssemblies/Unity.XR.WindowsMR.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.MixedReality.Toolkit.Services.InputSimulation">
-      <HintPath>Library/ScriptAssemblies/Microsoft.MixedReality.Toolkit.Services.InputSimulation.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.MixedReality.Toolkit.Demos.Gltf">
-      <HintPath>Library/ScriptAssemblies/Microsoft.MixedReality.Toolkit.Demos.Gltf.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.MixedReality.Toolkit.Demos.UX.Interactables">
-      <HintPath>Library/ScriptAssemblies/Microsoft.MixedReality.Toolkit.Demos.UX.Interactables.dll</HintPath>
-    </Reference>
     <Reference Include="Microsoft.MixedReality.Toolkit.Demos.InspectorFields">
       <HintPath>Library/ScriptAssemblies/Microsoft.MixedReality.Toolkit.Demos.InspectorFields.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.MixedReality.Toolkit.Examples">
       <HintPath>Library/ScriptAssemblies/Microsoft.MixedReality.Toolkit.Examples.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.XR.WindowsMR">
+      <HintPath>Library/ScriptAssemblies/Unity.XR.WindowsMR.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.MixedReality.Toolkit.Services.InputSimulation">
+      <HintPath>Library/ScriptAssemblies/Microsoft.MixedReality.Toolkit.Services.InputSimulation.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.2.5f1/Editor/Data/PlaybackEngines/MetroSupport/Managed/il2cpp/UnityEngine.dll</HintPath>
@@ -308,14 +308,23 @@
     <Reference Include="Unity.VSCode.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Microsoft.MixedReality.Toolkit.Demos.Gltf.Inspectors">
+      <HintPath>Library/ScriptAssemblies/Microsoft.MixedReality.Toolkit.Demos.Gltf.Inspectors.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.MixedReality.Toolkit.Editor.ClassExtensions">
       <HintPath>Library/ScriptAssemblies/Microsoft.MixedReality.Toolkit.Editor.ClassExtensions.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Microsoft.MixedReality.Toolkit.Demos.InspectorFields.Inspectors">
+      <HintPath>Library/ScriptAssemblies/Microsoft.MixedReality.Toolkit.Demos.InspectorFields.Inspectors.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.MixedReality.Toolkit.SDK.Inspectors">
       <HintPath>Library/ScriptAssemblies/Microsoft.MixedReality.Toolkit.SDK.Inspectors.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.MixedReality.Toolkit.Examples.Editor.Inspectors">
+      <HintPath>Library/ScriptAssemblies/Microsoft.MixedReality.Toolkit.Examples.Editor.Inspectors.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.MixedReality.Toolkit.Services.InputSimulation.Editor">
       <HintPath>Library/ScriptAssemblies/Microsoft.MixedReality.Toolkit.Services.InputSimulation.Editor.dll</HintPath>
@@ -347,20 +356,11 @@
     <Reference Include="Microsoft.MixedReality.Toolkit.Editor.Utilities">
       <HintPath>Library/ScriptAssemblies/Microsoft.MixedReality.Toolkit.Editor.Utilities.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEditor.UI">
-      <HintPath>Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.MixedReality.Toolkit.Demos.Gltf.Inspectors">
-      <HintPath>Library/ScriptAssemblies/Microsoft.MixedReality.Toolkit.Demos.Gltf.Inspectors.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.MixedReality.Toolkit.Demos.InspectorFields.Inspectors">
-      <HintPath>Library/ScriptAssemblies/Microsoft.MixedReality.Toolkit.Demos.InspectorFields.Inspectors.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.MixedReality.Toolkit.Examples.Editor.Inspectors">
-      <HintPath>Library/ScriptAssemblies/Microsoft.MixedReality.Toolkit.Examples.Editor.Inspectors.dll</HintPath>
-    </Reference>
     <Reference Include="Microsoft.MixedReality.Toolkit.Demos.StandardShader.Inspectors">
       <HintPath>Library/ScriptAssemblies/Microsoft.MixedReality.Toolkit.Demos.StandardShader.Inspectors.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UI">
+      <HintPath>Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2019.2.5f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\mscorlib.dll</HintPath>
@@ -982,6 +982,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\_Scripts\handGrab.cs" />
     <Compile Include="Assets\MixedRealityToolkit.Extensions\SceneTransitionService\ISceneTransitionService.cs" />
     <Compile Include="Assets\MixedRealityToolkit.Extensions\SceneTransitionService\SceneTransitionService.cs" />
     <Compile Include="Assets\MixedRealityToolkit.Extensions\SceneTransitionService\SceneTransitionServiceProfile.cs" />
