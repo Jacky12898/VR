@@ -3,7 +3,12 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - projectile
+  - FxTemporaire
+  - Snowball
+  - Left Hand
+  - Snowman
   layers:
   - Default
   - TransparentFX
@@ -13,6 +18,8 @@ TagManager:
   - UI
   - 
   - 
+  - Funnel
+  - Sphere
   - 
   - 
   - 
@@ -35,8 +42,6 @@ TagManager:
   - 
   - 
   - 
-  - 
-  - Spatial Awareness
   m_SortingLayers:
   - name: Default
     uniqueID: 0
